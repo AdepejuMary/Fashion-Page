@@ -115,12 +115,13 @@ body{
 
 .section3{
     margin-top: 150px;
-    
-    
+    width:100%;
 }
 
 #accessories{
-    font-size: xx-large;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 800;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
 }
 
 .section31{
@@ -142,7 +143,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-top: 5px;
-
+    width:95%;
 }
 
 .lastsection{
@@ -164,7 +165,7 @@ body{
 
 .foot{
     margin-top: 100px;
-    /* margin-left: 10%; */
+    /** margin-left: 10%; **/
     height: 160px;
     display:flex;
     justify-content: space-evenly;
@@ -197,6 +198,9 @@ body{
     font-size: small;
     margin-top: -10px;
 }
+.hrfooter{
+    width:100%;
+}
 
 
 @media only screen and (max-width: 1280px){
@@ -213,7 +217,6 @@ body{
     .section2{
         height:500px ;
         width: 80%;
-        /* background-color: beige; */
         margin-left: 10%;
         margin-top: 100px;
         align-items: center;
@@ -453,5 +456,224 @@ body{
                     margin-top: 30px;
                 }
                 
+              }
+
+              @media only screen and (max-width:412px){
+                body{
+                    background-color: beige;
+                    margin: 0px;
+                    width: 140%;
+                }
+                .nav{
+                    height: 30px;
+                    /**width: 140%;**/
+                    background-color: beige;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    box-shadow: 0 3px 4px #d7d7d7;
+                }
+                .headersection{
+                    background-color: peachpuff;
+                    height: 600px;
+                    /**width: 140%;**/
+                    margin-left: 10%;
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                .headertext{
+                    margin-top: 150px;
+                    margin-left: 15px;
+                    margin-bottom: 100px;
+                }
+                .headerimage{
+                    margin-top: 60px;
+                    margin-left: 50px;
+                    margin-right: 20px;
+                }
+                .imgclass{
+                    margin-top: -50px;
+                    /**width:140%;**/
+                }
+                #imagestyle1{
+                    max-width: 30%
+                }
+                #imagestyle2{
+                    max-width: 30%; margin-left: 12px;
+                }
+                #imagestyle3{
+                    max-width: 30%; margin-left: 10px;
+                }
+                .section3{
+                    margin-top: 100px;
+                    /**width: 140%;**/
+                }
+                #accessories{
+                    font-size: x-large;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-weight: 800;
+                    margin-right: 40px;
+                }
+                
+                .section31{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-left: 30px;
+                }
+                .button21{
+                    background-color: blueviolet;
+                    color:white;
+                    padding:8px;
+                    border:none;
+                    border-radius:2px;
+                    width:130px;
+                    height:40px;
+                    margin-left: 10px;
+                }
+                .section32{
+                    width: 140%;
+                    margin-left: 10px;
+                    margin-top: 25px;
+                }
+                .section33{
+                    max-width: 200px;
+                }
+                .section35{
+                    max-width: 200px; height:237px; margin-left: -1px;
+                }
+                .price{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 5px;
+                
+                }
+                .lastsection{
+                    margin-top: 100px;
+                    margin-left: 10px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .xtra{
+                    font-size: xx-large;
+                
+                }
+                .xtra1{
+                    margin-top: 70px;
+                    margin-right:150px;
+                }
+                .lastsectionpic{
+                    align-self: center;
+                    margin-left: 100px;
+                    height:400px;
+                    width: -25%;
+                    margin-bottom: 100px;
+                    margin-top: 50px;
+                    margin-left: 50px;
+            
+                }
+                .hrfooter{
+                    width:600px;
+                }
+              }
+              @media only screen and (max-width:300px){
+                body{
+                    background-color: beige;
+                    margin: 0px;
+                    width: 140%;
+                    
+                }
+                
+                .nav{
+                    height: 40px;
+                    width: 140%;
+                    background-color: beige;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    box-shadow: 0 3px 4px #d7d7d7;
+                    
+                }
+                .headersection{
+                    background-color: peachpuff;
+                    height: 600px;
+                    width: 580px;
+                    margin-left: 10%;
+                    margin-top: 40px;
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+                .headertext{
+                    margin-top: 150px;
+                    margin-left: 35px;
+                }
+                
+                .headerimage{
+                    margin-top: 60px;
+                    margin-left: 50px;
+                    margin-right: 40px;
+                }
+                .imgclass{
+                    margin-top: 30px;
+                    width: 140%;
+                }
+                #imagestyle1{
+                    max-width: 30%
+                }
+                #imagestyle2{
+                    max-width: 30%; margin-left: 15px;
+                }
+                #imagestyle3{
+                    max-width: 30%; margin-left: 12px;
+                }
+                .section32{
+                    margin-left: 10%;
+                    margin-top: 25px;
+                }
+                .section33{
+                    max-width: 190px;
+                    margin-right: 5px;
+                }
+                .section35{
+                    max-width: 190px; height:225px; margin-left: -1px;
+                }
+                .price{
+                    display: flex;
+                    justify-content: space-evenly;
+                    margin-top: 5px;
+                    width: 110%;
+                }
+                .lastsection{
+                    margin-top: 100px;
+                    margin-left: 5%;
+                    display: flex;
+                    justify-content: space-around;
+                    width:140%;
+                }
+                
+                .xtra{
+                    font-size: xx-large;
+                
+                }
+                .xtra1{
+                    margin-top: 70px;
+                    margin-right:150px;
+                }
+                .lastsectionpic{
+                    display: flex;
+                    align-self: center;
+                    margin-left: 100px;
+                    height:460px;
+                    width: -25%;
+                    margin-bottom: 100px;
+                    margin-top: 50px;
+                    margin-left: 50px;
+            
+                }
+                .foot{
+                    width:140%;
+                }
               }
  
